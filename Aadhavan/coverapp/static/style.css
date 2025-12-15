@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url(Image.png);
+    background-repeat: no-repeat;
+    background-position: 181px 0px;
+    background-attachment: fixed;
+}
+.BackCover {
+    background: white;
+    width: 46%;
+    margin: auto;
+    padding: 25px;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+hr 
+{
+    height: 2px;
+    background: rgb(30, 32, 30);
+    margin: 10px 0 20px 0;
+}
+p 
+{
+    line-height: 2;
+    color: rgb(0, 0, 0);
+}
+.Facts
+{
+    background: rgb(52, 54, 48);
+    border-left: 5px solid rgb(50, 53, 48);
+    padding: 15px;
+    margin: 25px 0;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.about-author 
+{
+    display: flex;
+    background: rgb(36, 41, 38);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+    gap: 15px;
+}
+.author-Image 
+{
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.about-author h3 {
+    margin: 0 0 5px 0;
+    color: rgb(255, 255, 255);
+}
+
+
+.about-author img {
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.about-author p
+{
+    color: white;
+}
+
+.Publisher-Details {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.Rate
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+mark
+{
+    background-color: rgb(86, 99, 93);
+}
